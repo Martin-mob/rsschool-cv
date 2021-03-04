@@ -50,10 +50,18 @@ body {
     margin: 15px;
 }
 
-.number,
-.email {
-    display: flex;
-    align-items: center;
+.contacts {
+  list-style: none;
+  margin-left: 40px;
+}
+
+.contacts > li {
+    padding-bottom: 10px;
+}
+
+.fa-mobile-alt,
+.fa-envelope {
+  padding-right: 10px;
 }
 
 .title-name {
@@ -79,6 +87,22 @@ body {
 .list-number {
     list-style-type: decimal;
     margin: 40px;
+}
+
+.list-disc > li {
+    padding-bottom: 5px;
+}
+
+.list-disc:last-child {
+    padding-bottom: 0;
+}
+
+.list-number > li {
+    padding-bottom: 10px;
+}
+
+.list-number:last-child {
+    padding-bottom: 0;
 }
 
 .footer {
