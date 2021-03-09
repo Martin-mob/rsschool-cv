@@ -76,7 +76,6 @@ body {
 .text {
     color: #3c4553;
     margin: 20px;
-    /* display: block; */
 }
 
 .list-disc {
@@ -106,6 +105,8 @@ body {
 }
 
 .footer {
+    display: flex;
+    align-items: center;
     text-align: center;
     font-size: 14px;
     max-width: 1200px;
@@ -113,4 +114,13 @@ body {
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
     padding: 30px;
     background: #fff;
+}
+
+.fa-github,
+.rsschool {
+    width: 50px;
+}
+
+.footer-text {
+    margin-left: 300px;
 }
